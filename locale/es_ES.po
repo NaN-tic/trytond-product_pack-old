@@ -1,0 +1,211 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.code,product_pack:"
+msgid "Packaging"
+msgstr "Embalaje"
+
+msgctxt "field:product.pack,codes:"
+msgid "Codes"
+msgstr "Códigos"
+
+msgctxt "field:product.pack,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:product.pack,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:product.pack,height:"
+msgid "Height"
+msgstr "Altura"
+
+msgctxt "field:product.pack,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.pack,layers:"
+msgid "Number of Layers"
+msgstr "Número de capas"
+
+msgctxt "field:product.pack,length:"
+msgid "Length"
+msgstr "Longitud"
+
+msgctxt "field:product.pack,note:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:product.pack,packages_layer:"
+msgid "Packagings by layer"
+msgstr "Embalajes por capa"
+
+msgctxt "field:product.pack,packaging_type:"
+msgid "Type of Packaging"
+msgstr "Tipo de embalaje"
+
+msgctxt "field:product.pack,packaging_type_weight:"
+msgid "Empty Packaging Weight"
+msgstr "Peso del embalaje vacío"
+
+msgctxt "field:product.pack,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:product.pack,qty:"
+msgid "Quantity by Package"
+msgstr "Cantidad por paquete"
+
+msgctxt "field:product.pack,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.pack,sequence:"
+msgid "Sequence"
+msgstr "Secuencia"
+
+msgctxt "field:product.pack,weight:"
+msgid "Total Packaging Weight"
+msgstr "Peso total del embalaje"
+
+msgctxt "field:product.pack,width:"
+msgid "Width"
+msgstr "Ancho"
+
+msgctxt "field:product.pack,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.pack,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:product.packaging.type,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:product.packaging.type,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:product.packaging.type,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.packaging.type,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.packaging.type,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.packaging.type,type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:product.packaging.type,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.packaging.type,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:product.template,packagings:"
+msgid "Packagings"
+msgstr "Embalajes"
+
+msgctxt "help:product.pack,height:"
+msgid "The height of the packaging."
+msgstr "La altura del embalaje."
+
+msgctxt "help:product.pack,layers:"
+msgid "The number of layers on a box or pallet."
+msgstr "El número de capas en una caja o palet."
+
+msgctxt "help:product.pack,length:"
+msgid "The length of the packaging."
+msgstr "La altura del embalaje."
+
+msgctxt "help:product.pack,packages_layer:"
+msgid "The number of packages by layer."
+msgstr "El número de paquetes por capa."
+
+msgctxt "help:product.pack,packaging_type_weight:"
+msgid "The weight of the empty type of packaging."
+msgstr "El peso vacío del tipo de embalaje."
+
+msgctxt "help:product.pack,qty:"
+msgid "The total number of products you can put by box or pallet."
+msgstr "El número total de productos que puede poner por caja o palet."
+
+msgctxt "help:product.pack,sequence:"
+msgid "Gives the sequence order when displaying a list of packaging."
+msgstr "Obtiene el orden de secuencia cuando muestra la lista de embalajes."
+
+msgctxt "help:product.pack,weight:"
+msgid "The weight of a full package, pallet or box."
+msgstr "El peso de un paquete completo, caja o palet."
+
+msgctxt "help:product.pack,width:"
+msgid "The width of the packaging."
+msgstr "El ancho del embalaje."
+
+msgctxt "model:ir.action,name:act_product_pack"
+msgid "Product Package"
+msgstr "Paquete de producto"
+
+msgctxt "model:ir.ui.menu,name:menu_product_pack"
+msgid "Product Package"
+msgstr "Paquete de producto"
+
+msgctxt "model:product.pack,name:"
+msgid "Product Pack"
+msgstr "Paquete de producto"
+
+msgctxt "model:product.packaging.type,name:"
+msgid "Packaging Type"
+msgstr "Tipo de embalaje"
+
+msgctxt "selection:product.packaging.type,type:"
+msgid "Box"
+msgstr "Caja"
+
+msgctxt "selection:product.packaging.type,type:"
+msgid "Pack"
+msgstr "Paquete"
+
+msgctxt "selection:product.packaging.type,type:"
+msgid "Pallet"
+msgstr "Palet"
+
+msgctxt "selection:product.packaging.type,type:"
+msgid "Unit"
+msgstr "Unidad"
+
+msgctxt "view:product.pack:"
+msgid "Label"
+msgstr "Etiqueta"
+
+msgctxt "view:product.pack:"
+msgid "Packaging"
+msgstr "Embalaje"
+
+msgctxt "view:product.pack:"
+msgid "Pallet Dimension"
+msgstr "Dimensiones del palet"
+
+msgctxt "view:product.pack:"
+msgid "Palletization"
+msgstr "Paletización"
+
+msgctxt "view:product.pack:"
+msgid "Product Pack"
+msgstr "Paquete de producto"
+
+msgctxt "view:product.template:"
+msgid "Packaging"
+msgstr "Embalaje"
