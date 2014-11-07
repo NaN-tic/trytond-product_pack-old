@@ -8,23 +8,17 @@ import unittest
 
 
 class ProductPackTestCase(unittest.TestCase):
-    '''
-    Test Product Pack module.
-    '''
+    'Test Product Pack module'
 
     def setUp(self):
         trytond.tests.test_tryton.install_module('product_pack')
 
     def test0005views(self):
-        '''
-        Test views.
-        '''
+        'Test views'
         test_view('product_pack')
 
     def test0006depends(self):
-        '''
-        Test depends.
-        '''
+        'Test depends'
         test_depends()
 
 
