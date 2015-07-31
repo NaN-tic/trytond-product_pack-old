@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -56,7 +56,7 @@ msgstr "Producto"
 
 msgctxt "field:product.pack,qty:"
 msgid "Quantity by Package"
-msgstr "Cantidad por paquete"
+msgstr "Cantidad por embalaje"
 
 msgctxt "field:product.pack,rec_name:"
 msgid "Name"
@@ -132,7 +132,7 @@ msgstr "La altura del embalaje."
 
 msgctxt "help:product.pack,packages_layer:"
 msgid "The number of packages by layer."
-msgstr "El número de paquetes por capa."
+msgstr "El número de embalajes por capa."
 
 msgctxt "help:product.pack,packaging_type_weight:"
 msgid "The weight of the empty type of packaging."
@@ -148,7 +148,7 @@ msgstr "Obtiene el orden de secuencia cuando muestra la lista de embalajes."
 
 msgctxt "help:product.pack,weight:"
 msgid "The weight of a full package, pallet or box."
-msgstr "El peso de un paquete completo, caja o palet."
+msgstr "El peso de un embalaje completo, caja o palet."
 
 msgctxt "help:product.pack,width:"
 msgid "The width of the packaging."
@@ -156,11 +156,11 @@ msgstr "El ancho del embalaje."
 
 msgctxt "model:ir.action,name:act_product_pack"
 msgid "Product Package"
-msgstr "Paquete de producto"
+msgstr "Embalaje de producto"
 
 msgctxt "model:ir.ui.menu,name:menu_product_pack"
 msgid "Product Package"
-msgstr "Paquete de producto"
+msgstr "Embalaje de producto"
 
 msgctxt "model:product.pack,name:"
 msgid "Product Pack"
