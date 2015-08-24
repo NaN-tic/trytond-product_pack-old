@@ -46,6 +46,16 @@ class ProductPack(ModelSQL, ModelView):
     length = fields.Float('Length', help='The length of the packaging.')
     note = fields.Text('Description')
 
+    @classmethod
+    def __setup__(cls):
+        super(ProductPack, cls).__setup__()
+        cls._order = [('product', 'ASC'), ('sequence', 'ASC')]
+
+    @staticmethod
+    def order_sequence(tables):
+        table, _ = tables[None]
+        return [table.sequence == None, table.sequence]
+
     @staticmethod
     def default_layers():
         return 3
