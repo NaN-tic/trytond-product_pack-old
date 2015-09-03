@@ -88,12 +88,14 @@ class ProductCode:
         if not cls.product.states.get('invisible', False):
             cls.product.states['invisible'] = True
 
+    @fields.depends('product_pack')
     def on_change_number(self):
-        super_on_change = getattr(super(ProductCode), 'on_change_number', {})
-        res = super_on_change and super_on_change(self)
-        res['product'] = (self.product_pack and self.product_pack.product.id
-            or None)
-        return res
+        try:
+            super(ProductCode, self).on_change_number()
+        except AttributeError:
+            pass
+
+        self.product = self.product_pack and self.product_pack.product.id or None
 
 
 class Template:
