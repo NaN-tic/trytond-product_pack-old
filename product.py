@@ -6,7 +6,6 @@ from trytond.pool import Pool, PoolMeta
 
 
 __all__ = ['PackagingType', 'ProductPack', 'ProductCode', 'Template']
-__metaclass__ = PoolMeta
 
 
 class PackagingType(ModelSQL, ModelView):
@@ -76,6 +75,7 @@ class ProductPack(ModelSQL, ModelView):
 
 
 class ProductCode:
+    __metaclass__ = PoolMeta
     __name__ = 'product.code'
     product_pack = fields.Many2One('product.pack', 'Packaging')
 
@@ -99,5 +99,6 @@ class ProductCode:
 
 
 class Template:
+    __metaclass__ = PoolMeta
     __name__ = 'product.template'
     packagings = fields.One2Many('product.pack', 'product', 'Packagings')
